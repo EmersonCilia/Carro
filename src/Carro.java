@@ -40,8 +40,9 @@ public class Carro {
                     Marca:   %s
                     Modelo:  %s
                     Ano:     %d
-                    Cor:     %s"""
-                ,MARCA, MODELO, ANO, COR);
+                    Cor:     %s
+                    \n"""
+                ,this.MARCA, this.MODELO, this.ANO, this.COR);
     }
 
     /**
@@ -51,7 +52,9 @@ public class Carro {
      */
 
     public static void main(String[] args) {
-        Carro meuCarro = new Carro("Nissan", "Livina", 2013, "Vermelho");
-        meuCarro.exibirDetalhes();
+        Carro meuCarro1 = new Carro("Nissan", "Livina", 2013, "Vermelho");
+        Carro meuCarro2 = new Carro("Ford", "Ká",1999,"beje");
+        meuCarro1.exibirDetalhes();
+        meuCarro2.exibirDetalhes();
     }
 }
