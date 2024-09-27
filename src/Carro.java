@@ -42,7 +42,7 @@ public class Carro {
                     Ano:     %d
                     Cor:     %s
                     \n"""
-                ,this.MARCA, this.MODELO, this.ANO, this.COR);
+                ,MARCA, MODELO, ANO, COR);
     }
 
     /**
